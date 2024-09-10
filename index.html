@@ -3,46 +3,68 @@
 
 <head>
     <style type = text/css>
-    body {background-color:rgb(255, 244, 192);}
-    p {color: #000959;}
+
+    body {background-color:#FFF1D0;}
+
+    h1 {color: #E53D00;}
+    h2 {color: #373737;}
+    p {color: #373737;}
+    div {color: #373737;}
 
     .flex-container {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             flex-wrap: wrap;
+            align-items: baseline;
+            justify-content: center;
+            gap: 20px;
         }
+
+    h1 {text-align: center;}
+    h2 {text-align: center;}
+    p {text-align: center;}
+    div {text-align: center;}
 
     </style>
     
     <title>The Shipping Company</title>
-
 </head>
 
 
 <body>
     <header>
-        <h1 style="font-size: xx-large; color: green;"">The Shipping Company</h1>
-        <h2 style="font-size: x-large; color: green;"">Package Delivery Services</h2>
+        <h1 style="font-size: xx-large;">The Shipping Company</h1>
     </header>
-    
+
     <nav>
-        <h2><a href ="https://www.google.com">Home</a> | <a href ="https://www.google.com">About Us</a>
+        <h2 style="font-size: large;">Home | About Us | <a href ="https://www.google.com">Web Search</a></h2>
     </nav>
     
+    <br>
+
     <main>
-        <p>Rates:</p>
+        <p><b>Domestic Delivery and Shipping</b></p>
 
         <div class="flex-container">
             <div>Envelopes - $1.00</div>
             <div>Packages less than 3kg - $3.00</div>
             <div>Packages more than 3kg - $5.00</div>
         </div>    
+
+        <p><b>International Delivery and Shipping</b></p>
+
+        <div class="flex-container">
+            <div>Envelopes - $10.00</div>
+            <div>Packages less than 3kg - $30.00</div>
+            <div>Packages more than 3kg - $50.00</div>
+        </div>    
     </main>
 
+    <br>
+    <br>
+
     <footer>
-        <p>Contact us at +123456789</p>
+        <p style="font-size: small; color: #767676;">The Shipping Company | Toronto, Ontario, Canada, ABC 123 | +123456789</p>
     </footer>
-
 </body>
-
 </html>
